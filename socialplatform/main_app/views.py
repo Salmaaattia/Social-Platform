@@ -8,7 +8,7 @@ def index(request):
 
 
 def register(request):
-    return HttpResponse("please enter your email and password")
+    return render(request, 'main_app/register.html')
 
 
 def login(request):
