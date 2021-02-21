@@ -1,3 +1,4 @@
+from rest_framework.views import APIView
 from django.shortcuts import render
 
 # Create your views here.
@@ -8,8 +9,10 @@ def index(request):
     return HttpResponse("Hello, world. You're at the socialplatform index.")
 
 
-def registeration(request):
-    return HttpResponse("please enter your email and password")
+class UserCreate(APIView):
+
+    def post(self, request):
+        return HttpResponse("please enter your email and password")
 
 
 def login(request):

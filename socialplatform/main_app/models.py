@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class User(models.Model):
     name = models.CharField(max_length=50)
@@ -11,7 +12,7 @@ class User(models.Model):
 class Post(models.Model):
     content = models.CharField(max_length=250)
     date_posted = models.DateField()
-    owner =  models.ForeignKey(User, on_delete=models.CASCADE)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE)
 
 
 class Comment(models.Model):
