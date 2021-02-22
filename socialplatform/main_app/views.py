@@ -5,7 +5,10 @@ from .models import Post
 
 
 def home(request):
-    return render(request, 'main_app/home.html', {'posts': Post.objects.all()})
+    return render(request,
+                  'main_app/home.html', {'posts': Post.objects.all()})
+
 
 def post(request):
-    return render(request, 'main_app/post.html', {'posts': Post.objects.all()})
+    return render(request,
+                  'main_app/post.html', {'posts': Post.objects.all()})
