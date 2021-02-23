@@ -4,9 +4,6 @@
 <article class="media content-section">
     <div class="media-body">
       <div class="article-metadata">
-        {% include 'main_app/post.html' %}
-      </div>
-      <div class="article-metadata">
         <a class="mr-2" href="{% url 'profile' %}">{{ post.author }}</a>
         <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
       </div>
