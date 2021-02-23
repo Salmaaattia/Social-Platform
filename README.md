@@ -1,8 +1,8 @@
 # Social-Platform
-A Social Platform using Django 
+A Social Platform using Django, where users can register, login, logout, create and browse posts; in addition,admins can access a portal to manage the content being shared on the platform.
 
 ### Steps:
-1. Create virtual environment with any python version higher that 3.6
+1. Create virtual environment with any python version higher that 3.6.
 2. pip install -r requirements.txt
 3. cd into socialplatform, where you can find the manage.py file.
 4. run python manage.py runserver.
@@ -17,7 +17,7 @@ A Social Platform using Django
 
 ## Implementation
 this project consists of two apps:
-1. main_app: this app is responsible for handling the home page and the post.
+1. main_app: this app is responsible for handling the home page and the posts.
 2. users: handles the users, register, login, logout. etc.
 
 ### Models:
