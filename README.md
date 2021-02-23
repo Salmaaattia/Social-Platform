@@ -26,7 +26,7 @@ this project consists of two apps:
 4. Like, implemented but not used.
 5. Comment, implemented but not used.
 
-### views:
+### Views:
 1. main_app/ --> home view
 2. register/ --> registeration
 3. login/ --> login
